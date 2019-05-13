@@ -12,6 +12,7 @@
 		803910372246D04A00F8F64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803910352246D04A00F8F64A /* Main.storyboard */; };
 		803910392246D04D00F8F64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803910382246D04D00F8F64A /* Assets.xcassets */; };
 		8039103C2246D04D00F8F64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8039103A2246D04D00F8F64A /* LaunchScreen.storyboard */; };
+		803910462246ED8700F8F64A /* catML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 803910452246ED8700F8F64A /* catML.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		803910382246D04D00F8F64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8039103B2246D04D00F8F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8039103D2246D04D00F8F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803910452246ED8700F8F64A /* catML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = catML.mlmodel; path = ../../catML.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				803910382246D04D00F8F64A /* Assets.xcassets */,
 				8039103A2246D04D00F8F64A /* LaunchScreen.storyboard */,
 				8039103D2246D04D00F8F64A /* Info.plist */,
+				803910452246ED8700F8F64A /* catML.mlmodel */,
 			);
 			path = CatML;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				803910342246D04A00F8F64A /* ViewController.swift in Sources */,
+				803910462246ED8700F8F64A /* catML.mlmodel in Sources */,
 				803910322246D04A00F8F64A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5DPRLW5ZX;
 				INFOPLIST_FILE = CatML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5DPRLW5ZX;
 				INFOPLIST_FILE = CatML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
